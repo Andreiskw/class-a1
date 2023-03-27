@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    Teste de Funcionário
+    
+    <script>
+        class Funcionario {
+    constructor(ra, nome, dataNascimento, salario) {
+    this.ra = ra;
+    this.nome = nome;
+    this.dataNascimento = dataNascimento;
+    this.salario = salario;
+    }
+
+    aumentarSalario(porcentagem) {
+        this.salario = this.salario * ( 1 + porcentagem/100)
+    }
+}
+    </script>
+</body>
+</html>
